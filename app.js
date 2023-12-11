@@ -38,3 +38,14 @@ app.listen(port, () => console.log(`http://localhost:${port}`));
 
 //const createPath = (filename) => path.join(__dirname,"./views/${filename}");
 //ej: app.get("/",(req,res) => res.sendFile(createPath("index")));
+
+//       app.get('/:name', (req, res) => {
+ //         const { name } = req.params;
+ //          const fileName = `${name}.html`;
+
+ //             res.sendFile(fileName, (err) => {
+ //         if (err) {
+//              res.status(404).send('Sorry, we cannot find that!');
+//              }
+//            });
+//          });
